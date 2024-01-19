@@ -1,0 +1,52 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: monospace;
+    background-color: powderblue;
+    color: white;
+  }
+  
+  nav {
+    height: 80px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 15px;
+  }
+  
+  .logo {
+    color: white;
+    font-size: 25px;
+    font-weight: bold;
+    font-style: italic;
+    padding: 0 2rem;
+    background-color: navy;
+  }
+  
+  nav a {
+    text-decoration: none;
+    color: white;
+    padding: 0 1.5rem;
+    background-color: navy;
+  }
+  
+  nav a:hover {
+    color: white;
+  }
+
+  h1 {
+    text-align: center;
+    font-size: 50px;
+    background-color: navy;
+  }
+
+  p {
+    text-align: left;
+    text-indent: 1rem;
+    font-size: 1.5rem;
+    padding-left: 10rem;
+    padding-right: 10rem;
+    padding-bottom: 5rem;
+    color: navy
+  }
