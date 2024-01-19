@@ -4,7 +4,7 @@
     padding: 0;
     font-family: monospace;
     background-color: powderblue;
-    color: white;
+    color: beige;
   }
   
   nav {
@@ -16,7 +16,7 @@
   }
   
   .logo {
-    color: white;
+    color: beige;
     font-size: 25px;
     font-weight: bold;
     font-style: italic;
@@ -26,19 +26,20 @@
   
   nav a {
     text-decoration: none;
-    color: white;
+    color: beige;
     padding: 0 1.5rem;
     background-color: navy;
   }
   
   nav a:hover {
-    color: white;
+    color: beige;
   }
 
   h1 {
     text-align: center;
     font-size: 50px;
-    background-color: navy;
+    background-color: beige;
+    color: navy
   }
 
   p {
