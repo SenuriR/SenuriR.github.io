@@ -56,5 +56,6 @@
     text-align: center;
     display: block;
     padding-bottom: 10rem;
-    align-items:first baseline
+    align-items:first baseline;
+    justify-content: space-between;
   }
