@@ -3,8 +3,8 @@
     margin: 0;
     padding: 0;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    background-color: beige;
-    color: navy;
+    background-color: rgb(12, 12, 63);
+    color: white;
   }
   
   nav {
@@ -16,42 +16,42 @@
   }
   
   .logo {
-    color: beige;
+    color:  rgb(12, 12, 63);
     font-size: 25px;
     font-weight: bold;
     font-style: italic;
     padding: 0 2rem;
-    background-color: navy;
+    background-color: rgb(81, 240, 72);
   }
   
   nav a {
     text-decoration: none;
-    color: beige;
+    color:  rgb(12, 12, 63);
     padding: 0 1.5rem;
-    background-color: navy;
+    background-color: rgb(81, 240, 72);
   }
   
   nav a:hover {
-    color: beige;
+    color: navy;
   }
 
   h1 {
     text-align: center;
     font-size: 50px;
-    background-color: beige;
-    color: navy
+    background-color:  rgb(12, 12, 63);
+    color: rgb(81, 240, 72);
   }
 
   h2 {
     text-align: center;
     font-size: 2.0rem;
-    background-color: beige;
-    color: navy
+    background-color:  rgb(12, 12, 63);
+    color: white
   }
 
   p {
     text-align: left;
     font-size: 2.0rem;
     padding: 5.0rem;
-    color: black
+    color: white
   }
