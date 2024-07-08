@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>My Work</title>
+    <link rel="stylesheet" href="style_work.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="logo"> <a href="index.html">Personal Portfolio</a> </div>
+      <div class="nav-items">
+        <a href="index.html">Home</a> <a href="About.html">About</a> <a href="MyWork.html">My Work</a> <a href="Contact.html">Contact</a>
+      </div>
+    </nav>
+      <h1>
+          LOCC Interactive Manim Project
+      </h1>
+      <br><br>
+      <p> Note: I've been working on this project since February 2024, but I've decided to start making daily logs starting July 7th 2024.</p>
+      <p> 7/7/24: Today I’m trying to figure out why the full manim scene I wrote is not being rendered in the GUI.
+        I believe this problem might be coming up because of resource limits, i.e., my environment has memory/CPU constraints that are impacting the execution of the program.
+        To solve this bump, I am trying to implement the GUI in one thread, and the manim scene in another. Thankfully I learned about multi-threading in my Software Methodology (CS213) class this past semester, so this concept isn’t too daunting.
+        After a bit of debugging and trying to figure out how video threads work specifically, I’ve been able to implement the thread logic correctly, but the SAME problem remains! Only 7 out of the (about) 51 animations of the manim scene are being generated.
+        This is frustrating, but we were able to properly (I believe) implement the two threads, so that’s still a win because I think it’s a good thing to know how to do, and will probably be helpful down the road. Tomorrow will require some digging to find out what's going on.
+      </p>
+      <p><a href="https://github.com/yashsharma25/LOCC"> GitHub for the project </a> </p>
+  </body>
+</html>

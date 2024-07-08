@@ -2,9 +2,9 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-    font-family: monospace;
-    background-color: powderblue;
-    color: beige;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: rgb(233, 220, 201);
+    color: rgb(233, 220, 201);
   }
   
   nav {
@@ -16,30 +16,30 @@
   }
   
   .logo {
-    color: beige;
+    color: rgb(233, 220, 201);
     font-size: 25px;
     font-weight: bold;
     font-style: italic;
     padding: 0 2rem;
-    background-color: navy;
+    background-color: rgb(138, 154, 91);
   }
   
   nav a {
     text-decoration: none;
-    color: beige;
+    color: rgb(233, 220, 201);
     padding: 0 1.5rem;
-    background-color: navy;
+    background-color: rgb(138, 154, 91);
   }
   
   nav a:hover {
-    color: beige;
+    color: rgb(233, 220, 201);
   }
   
   h1 {
     text-align: center;
     font-size: 50px;
-    background-color: beige;
-    color: navy
+    background-color: rgb(233, 220, 201);
+    color: rgb(138, 154, 91);
   }
 
   p {
@@ -49,7 +49,7 @@
     padding-left: 10rem;
     padding-right: 10rem;
     padding-bottom: 5rem;
-    color: navy
+    color: rgb(138, 154, 91);
   }
 
   .img-container {
@@ -58,4 +58,8 @@
     padding-bottom: 10rem;
     align-items:first baseline;
     justify-content: space-between;
+  }
+
+  p a {
+    color: rgb(138, 154, 91);
   }
