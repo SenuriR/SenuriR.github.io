@@ -42,6 +42,13 @@
     color: rgb(138, 154, 91);
   }
 
+  h2 {
+    text-align: center;
+    font-size: 2.0rem;
+    background-color:  rgb(233, 220, 201);
+    color: rgb(138, 154, 91);
+  }
+
   p {
     text-align: left;
     text-indent: 1rem;
@@ -63,3 +70,17 @@
   p a {
     color: rgb(138, 154, 91);
   }
+
+ .wrap-right{
+   float: right; 
+   margin: 5px;
+   margin-right: 2rem;
+   margin-left: 2rem;
+  }
+
+  .wrap-left{
+    float: left; 
+    margin: 5px;
+    margin-right: 2rem;
+    margin-left: 2rem;
+   }
