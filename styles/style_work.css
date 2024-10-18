@@ -1,3 +1,4 @@
+/* Global Styles */
 * {
   box-sizing: border-box;
   margin: 0;
@@ -66,6 +67,7 @@ h2 a {
   background-color: transparent;
   text-decoration: underline;
 }
+
 /* Mobile Styles */
 @media (max-width: 768px) {
   nav {
@@ -75,29 +77,29 @@ h2 a {
   }
 
   .logo {
-      font-size: 2rem; /* Adjusted font size for mobile */
-      padding: 1rem 0;
+      font-size: 1.6rem; /* Further reduced font size for mobile */
+      padding: 0.5rem 0;
   }
 
   nav a {
       padding: 0.5rem 0;
-      font-size: 1.20rem; /* Match desktop font size for nav links */
+      font-size: 0.9rem; /* Further reduced font size for nav links */
   }
 
   h1 {
-      font-size: 3rem; /* Adjusted font size for mobile for better visibility */
-      padding: 0 10%; /* Reduced padding for better mobile display */
+      font-size: 2rem; /* Further reduced font size for mobile */
+      padding: 0 8%; /* Adjusted padding for better fit */
   }
 
   h2 {
-      font-size: 2rem; /* Increased font size for mobile to match desktop */
-      text-align: center; /* Ensuring text is centered as per desktop */
-      padding: 0 10%; /* Reduced padding for better mobile display */
+      font-size: 1.3rem; /* Reduced font size for mobile */
+      text-align: center; /* Centered for consistency */
+      padding: 0 8%; /* Adjusted padding for a better fit */
   }
 
   p {
-      font-size: 1.5rem; /* Kept the same as desktop */
-      padding: 0 10%; /* Reduced padding for better mobile display */
+      font-size: 1rem; /* Further reduced font size for mobile */
+      padding: 0 8%; /* Adjusted padding for better display */
   }
 }
 
