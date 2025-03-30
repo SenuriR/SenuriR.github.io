@@ -100,3 +100,24 @@ h2 a {
         padding: 0 10%; /* Reduced padding for better mobile display */
     }
 }
+
+.about-image {
+    float: right;
+    margin-left: 40px;
+    margin-right: 200px;
+    margin-bottom: 20px;
+    width: 300px; /* Adjust as needed */
+    height: auto;
+    border-radius: 10px; /* Optional: for rounded corners */
+  }
+  
+  .about-image-1 {
+    float: left;
+    margin-left: 375px;
+    margin-right: 40px;
+    margin-bottom: 20px;
+    width: 300px; /* Adjust as needed */
+    height: auto;
+    border-radius: 10px; /* Optional: for rounded corners */
+  }
+  
