@@ -104,7 +104,7 @@ camera.add(listener);
 const sound = new THREE.Audio(listener);
 
 const audioLoader = new THREE.AudioLoader();
-audioLoader.load('rihanna_trim.mp3', function (buffer) {
+audioLoader.load('cestlavie.mp3', function (buffer) {
   sound.setBuffer(buffer);
   sound.setLoop(true);
   sound.setVolume(0); // start silent
