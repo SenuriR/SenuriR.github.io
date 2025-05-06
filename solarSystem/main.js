@@ -81,6 +81,37 @@ function addStarField(count = 1000) {
 }
 
     addStarField();
+function fadeInAudio(audio, targetVolume = 0.5, duration = 3000) {
+  const steps = 60;
+  const interval = duration / steps;
+  let currentStep = 0;
+
+  const fade = setInterval(() => {
+    currentStep++;
+    const progress = currentStep / steps;
+    audio.setVolume(progress * targetVolume);
+
+    if (currentStep >= steps) {
+      clearInterval(fade);
+      audio.setVolume(targetVolume); // ensure exact final value
+    }
+  }, interval);
+}
+
+const listener = new THREE.AudioListener();
+camera.add(listener);
+
+const sound = new THREE.Audio(listener);
+
+const audioLoader = new THREE.AudioLoader();
+audioLoader.load('rihanna_trim.mp3', function (buffer) {
+  sound.setBuffer(buffer);
+  sound.setLoop(true);
+  sound.setVolume(0); // start silent
+  sound.play();
+
+  fadeInAudio(sound, 0.5, 3000); // targetVolume, duration(ms)
+});
 
 
 function animate() {
