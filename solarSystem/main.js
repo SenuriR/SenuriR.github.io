@@ -81,6 +81,8 @@ function addStarField(count = 1000) {
 }
 
     addStarField();
+
+/*
 function fadeInAudio(audio, targetVolume = 0.5, duration = 3000) {
   const steps = 60;
   const interval = duration / steps;
@@ -112,7 +114,7 @@ audioLoader.load('cestlavie.mp3', function (buffer) {
 
   fadeInAudio(sound, 0.5, 3000); // targetVolume, duration(ms)
 });
-
+*/
 
 function animate() {
     requestAnimationFrame(animate);
