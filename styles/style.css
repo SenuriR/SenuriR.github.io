@@ -78,9 +78,10 @@ h3 {
 }
 
 ul {
-    padding: 0 22%;
+    padding: 0 20%;
     margin-bottom: 2rem;
     list-style-type: disc;
+    list-style-position: inside;
 }
 
 li {
@@ -89,6 +90,7 @@ li {
     margin-bottom: 0.3rem;
     color: rgb(78, 190, 168);
 }
+
 
 /* Mobile adjustments for list sections */
 @media (max-width: 768px) {
