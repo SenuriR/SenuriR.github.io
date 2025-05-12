@@ -67,6 +67,45 @@ h2 a {
     text-decoration: underline;
 }
 
+h3 {
+    text-align: left;
+    font-size: 1.5rem;
+    background-color: rgb(8, 23, 44);
+    color: rgb(78, 190, 168);
+    padding: 0 20%;
+    margin-top: 1.5rem;
+    font-weight: 600;
+}
+
+ul {
+    padding: 0 22%;
+    margin-bottom: 2rem;
+    list-style-type: disc;
+}
+
+li {
+    font-size: 1.2rem;
+    line-height: 1.8;
+    margin-bottom: 0.3rem;
+    color: rgb(78, 190, 168);
+}
+
+/* Mobile adjustments for list sections */
+@media (max-width: 768px) {
+    h3 {
+        padding: 0 10%;
+    }
+
+    ul {
+        padding: 0 12%;
+    }
+
+    li {
+        font-size: 1.2rem;
+    }
+}
+
+
 /* Mobile Styles */
 @media (max-width: 768px) {
     nav {
