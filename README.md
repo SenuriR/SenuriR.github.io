@@ -1,2 +1,3 @@
 # SenuriR.github.io
-Hey! This is my personal portfolio!
+
+My personal portfolio as a computer scientist and software engineer!
