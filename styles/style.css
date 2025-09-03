@@ -1,55 +1,61 @@
+/* Global reset */
 * {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(8, 23, 44);
+    background-color: rgb(247, 229, 173);
     font-style: normal;
-    color: rgb(78, 190, 168);
+    color: rgb(113, 131, 54);
+}
+
+/* Root font size: change this one number to scale everything */
+html {
+    font-size: 10px; /* Adjust to 14px (smaller) or 18px/20px (larger) */
 }
 
 nav {
-    height: 100px; /* Increased height for better visibility */
+    height: 6.25rem; /* 100px → 6.25rem */
     display: flex;
     justify-content: space-between;
     align-items: center;
-    font-size: 1.20rem; /* Increased font size for all elements in the nav */
-    background-color: rgb(8, 23, 44);
-    padding: 0 2rem; /* Added padding for spacing */
+    font-size: 1.2rem;
+    background-color: rgb(247, 229, 173);
+    padding: 0 2rem;
 }
 
 .logo {
-    color: rgb(78, 190, 168); /* Changed color for visibility */
-    font-size: 2.5rem; /* Increased the logo size */
+    color: rgb(113, 131, 54);
+    font-size: 2.5rem;
     font-weight: bold;
     font-style: italic;
 }
 
 nav a {
     text-decoration: none;
-    color: rgb(8, 23, 44);
+    color: rgb(247, 229, 173);
     padding: 0 1.5rem;
-    background-color: rgb(78, 190, 168);
-    font-size: 1.20rem; /* Increased font size for nav links */
+    background-color: rgb(113, 131, 54);
+    font-size: 1.2rem;
 }
 
 nav a:hover {
-    color: navy;
+    color: rgb(255, 255, 255);
 }
 
 h1 {
     text-align: left;
-    font-size: 50px;
-    background-color: rgb(8, 23, 44);
-    color: rgb(78, 190, 168);
+    font-size: 3.125rem; /* 50px → 3.125rem */
+    background-color: rgb(247, 229, 173);
+    color: rgb(113, 131, 54);
     padding: 0 20%;
 }
 
 h2 {
     text-align: left;
-    font-size: 2.0rem;
-    background-color: rgb(8, 23, 44);
-    color: rgb(78, 190, 168);
+    font-size: 2rem;
+    background-color: rgb(247, 229, 173);
+    color: rgb(113, 131, 54);
     padding: 0 20%;
 }
 
@@ -58,11 +64,11 @@ p {
     font-size: 1.5rem;
     padding: 0 20%;
     margin-bottom: 2rem;
-    color: rgb(78, 190, 168);
+    color: rgb(113, 131, 54);
 }
 
 h2 a {
-    color: rgb(78, 190, 168);
+    color: rgb(113, 131, 54);
     background-color: transparent;
     text-decoration: underline;
 }
@@ -70,8 +76,8 @@ h2 a {
 h3 {
     text-align: left;
     font-size: 1.5rem;
-    background-color: rgb(8, 23, 44);
-    color: rgb(78, 190, 168);
+    background-color: rgb(247, 229, 173);
+    color: rgb(113, 131, 54);
     padding: 0 20%;
     margin-top: 1.5rem;
     font-weight: 600;
@@ -88,9 +94,8 @@ li {
     font-size: 1.2rem;
     line-height: 1.8;
     margin-bottom: 0.3rem;
-    color: rgb(78, 190, 168);
+    color: rgb(113, 131, 54);
 }
-
 
 /* Mobile adjustments for list sections */
 @media (max-width: 768px) {
@@ -107,7 +112,6 @@ li {
     }
 }
 
-
 /* Mobile Styles */
 @media (max-width: 768px) {
     nav {
@@ -117,48 +121,47 @@ li {
     }
 
     .logo {
-        font-size: 2rem; /* Adjusted font size for mobile */
+        font-size: 2rem;
         padding: 1rem 0;
     }
 
     nav a {
         padding: 0.5rem 0;
-        font-size: 1.20rem; /* Match desktop font size for nav links */
+        font-size: 1.2rem;
     }
 
     h1 {
-        font-size: 3rem; /* Adjusted font size for mobile to ensure visibility */
-        padding: 0 10%; /* Reduced padding for better mobile display */
+        font-size: 3rem;
+        padding: 0 10%;
     }
 
     h2 {
-        font-size: 2rem; /* Adjusted font size for mobile to match desktop */
-        padding: 0 10%; /* Reduced padding for better mobile display */
+        font-size: 2rem;
+        padding: 0 10%;
     }
 
     p {
-        font-size: 1.5rem; /* Kept the same as desktop */
-        padding: 0 10%; /* Reduced padding for better mobile display */
+        font-size: 1.5rem;
+        padding: 0 10%;
     }
 }
 
 .about-image {
     float: right;
-    margin-left: 40px;
-    margin-right: 200px;
-    margin-bottom: 20px;
-    width: 300px; /* Adjust as needed */
+    margin-left: 2.5rem;   /* 40px → 2.5rem */
+    margin-right: 12.5rem; /* 200px → 12.5rem */
+    margin-bottom: 1.25rem; /* 20px → 1.25rem */
+    width: 18.75rem; /* 300px → 18.75rem */
     height: auto;
-    border-radius: 10px; /* Optional: for rounded corners */
-  }
-  
-  .about-image-1 {
+    border-radius: 0.625rem; /* 10px → 0.625rem */
+}
+
+.about-image-1 {
     float: left;
-    margin-left: 375px;
-    margin-right: 40px;
-    margin-bottom: 20px;
-    width: 300px; /* Adjust as needed */
+    margin-left: 23.4375rem; /* 375px → 23.4375rem */
+    margin-right: 2.5rem;
+    margin-bottom: 1.25rem;
+    width: 18.75rem;
     height: auto;
-    border-radius: 10px; /* Optional: for rounded corners */
-  }
-  
+    border-radius: 0.625rem;
+}
