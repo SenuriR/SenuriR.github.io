@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(247, 229, 173);
+    background-color: #1D333E;
     font-style: normal;
     color: rgb(113, 131, 54);
 }
@@ -20,7 +20,7 @@ nav {
     justify-content: space-between;
     align-items: center;
     font-size: 1.2rem;
-    background-color: rgb(247, 229, 173);
+    background-color: #1D333E;
     padding: 0 2rem;
 }
 
@@ -33,7 +33,7 @@ nav {
 
 nav a {
     text-decoration: none;
-    color: rgb(247, 229, 173);
+    color: #1D333E;
     padding: 0 1.5rem;
     background-color: rgb(113, 131, 54);
     font-size: 1.2rem;
@@ -46,15 +46,52 @@ nav a:hover {
 h1 {
     text-align: left;
     font-size: 3.125rem; /* 50px → 3.125rem */
-    background-color: rgb(247, 229, 173);
+    background-color: #1D333E;
     color: rgb(113, 131, 54);
     padding: 0 20%;
+}
+
+.intro-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: row-reverse;
+  padding: 0 10%;
+  gap: 2px; /* smaller space between text and image */
+  min-height: 80vh;
+}
+
+.intro-section img {
+  width: 300px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+  flex-shrink: 0;
+  margin-left: 0px; /* 👈 brings image closer to text */
+}
+
+.intro-text {
+  flex: 1;
+  max-width: 1200px;
+}
+
+.intro-text h1 {
+  color: rgb(113, 131, 54);
+  font-size: 5.0em;
+  margin: 0;
+  line-height: 1.1;
+}
+
+.intro-text p {
+  font-size: 3em;
+  margin-top: 25px;
+  line-height: 1.5;
 }
 
 h2 {
     text-align: left;
     font-size: 2rem;
-    background-color: rgb(247, 229, 173);
+    background-color: #1D333E;
     color: rgb(113, 131, 54);
     padding: 0 20%;
 }
@@ -76,7 +113,7 @@ h2 a {
 h3 {
     text-align: left;
     font-size: 1.5rem;
-    background-color: rgb(247, 229, 173);
+    background-color: #1D333E;
     color: rgb(113, 131, 54);
     padding: 0 20%;
     margin-top: 1.5rem;
