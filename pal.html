@@ -1,25 +1,107 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Work</title>
-    <link rel="stylesheet" href="styles/style_work.css" />
-    <link rel="icon" type=""image/x-icon" href="images/coca-leaves.png" >
-  </head>
-  <body>
-    <nav>
-      <div class="logo"> <a href="index.html">Personal Portfolio</a> </div>
-      <div class="nav-items">
-        <a href="index.html">Home</a> <a href="about.html">About</a> <a href="my_work.html">My Work</a> <a href="contact.html">Contact</a>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>PAL Automation System | Senuri Rupasinghe</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css" />
+  <link rel="icon" type="image/x-icon" href="images/coca-leaves.png">
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <div class="logo">
+      <a href="index.html" style="text-decoration:none; color:inherit;">SR</a>
+    </div>
+    <div class="nav-items">
+      <a href="about.html">About</a>
+      <a href="my_work.html">Work</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <h1>PAL Exam Automation System</h1>
+      <p class="tagline">
+        Backend automation for academic exam workflows, built through Rutgers’ funded Interdisciplinary Research Team (IRT) program.
+      </p>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <section class="project-content">
+    <div class="container">
+
+      <!-- Poster -->
+      <img src="images/palposter.png"
+           alt="PAL Project Poster"
+           class="project-image">
+
+      <div class="project-description">
+
+        <h2>Overview</h2>
+        <p>
+          This project was developed as part of Rutgers University’s
+          <strong>Interdisciplinary Research Team (IRT)</strong> program —
+          a competitive, funded initiative supporting applied research projects.
+          Our team contributed to the Personalized Aide for Student Learning (PAL) effort
+          by building backend infrastructure to automate exam processing workflows.
+        </p>
+
+        <h2 style="margin-top:60px;">What I Built</h2>
+        <p>
+          I designed and implemented a Python/Django backend that:
+        </p>
+
+        <p>
+          • Integrated Gradescope and Akindi exam data.<br>
+          • Automated exam data ingestion and reconciliation workflows.<br>
+          • Reduced manual spreadsheet processing and grading overhead.<br>
+          • Improved reliability and reproducibility across semesters.
+        </p>
+
+        <h2 style="margin-top:60px;">Impact</h2>
+        <p>
+          The system saved over <strong>200+ hours per semester</strong> for instructional staff
+          by automating repetitive grading and data integration tasks.
+          It transformed a manual, error-prone workflow into a scalable backend system.
+        </p>
+
+        <h2 style="margin-top:60px;">Engineering Growth</h2>
+        <p>
+          This project strengthened my experience in backend architecture,
+          third-party API integration, and building production-ready systems
+          with measurable real-world impact.
+        </p>
+
       </div>
-    </nav>
-      <h1 style="color: rgb(113, 131, 54)">
-        PAL. A Personalized Aide for student Learning.
-      </h1>
+
+      <!-- Action Links -->
+      <div class="project-actions">
+
+        <a href="https://sasoue.rutgers.edu/curriculum-courses/irt"
+           target="_blank"
+           class="project-button">
+          Rutgers IRT Program →
+        </a>
+
+      </div>
+
+      <!-- Back -->
+      <div class="back-link">
+        <a href="my_work.html">← Back to Work</a>
+      </div>
       <br><br>
-      <p> For this project I developed scripts in Python using Django Framework to support a item-response-theory-driven interactive question interface, resulting in enhanced student learning.</p>
-      <p> I also led the integration of Akindi score file format with back-end database to streamline score data processing and improve efficiency, saving over 300 hours worth of grading and question analysis for professors.</p>
-      <h2 style="text-align: center;"> <img src="images/palposter.png" alt="Research Poster from IRT Fall '23 - Spring '24 Symposium"></h2> <br> <br>
-  </body>
+
+    </div>
+  </section>
+
+</body>
 </html>

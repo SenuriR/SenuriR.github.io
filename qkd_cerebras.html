@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>AI Hacker Detection QKD | Senuri Rupasinghe</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css" />
+  <link rel="icon" type="image/x-icon" href="images/coca-leaves.png">
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <div class="logo">
+      <a href="index.html" style="text-decoration:none; color:inherit;">SR</a>
+    </div>
+    <div class="nav-items">
+      <a href="about.html">About</a>
+      <a href="my_work.html">Work</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero section">
+    <div class="container" style="max-width: 900px;">
+      <h1>AI Hacker Detection in BB84 QKD</h1>
+      <p class="tagline">
+        A playful quantum key distribution simulator with AI-assisted eavesdropper inference.
+      </p>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <section class="project-content section">
+
+    <img src="images/qkd_ui.png"
+         alt="QKD Simulation Interface"
+         class="project-image">
+
+    <div class="project-description">
+
+      <h2>Overview</h2>
+
+      <p>
+        This project is an interactive simulation of the BB84 quantum key distribution protocol,
+        designed to demonstrate how quantum mechanics enables secure communication.
+        The system models basis selection, photon encoding, measurement, and key reconciliation
+        between Alice and Bob — while optionally introducing an eavesdropper (Eve).
+      </p>
+
+      <p>
+        The twist: an integrated AI assistant analyzes the transmission statistics
+        (including basis mismatches and quantum bit error rate) and attempts to infer
+        whether a hacker is present — and what strategy they might be using.
+      </p>
+
+      <h2 style="margin-top:60px;">What It Demonstrates</h2>
+
+      <p>
+        • Core BB84 protocol mechanics (random basis selection & collapse).<br>
+        • Error-rate signatures of intercept-resend attacks.<br>
+        • How quantum measurement disturbance reveals eavesdropping.<br>
+        • AI-assisted interpretation of protocol outcomes.
+      </p>
+
+      <h2 style="margin-top:60px;">Technical Stack</h2>
+
+      <p>
+        The application was built with a React frontend and a Python (Flask/FastAPI)
+        backend. The simulation logic handles quantum state encoding and measurement
+        modeling, while the AI layer integrates large language model inference to
+        generate contextual analysis of possible adversarial behavior.
+      </p>
+
+      <p>
+        The project was deployed as a full-stack web application, requiring
+        environment configuration, API orchestration, and cloud deployment setup.
+      </p>
+
+      <h2 style="margin-top:60px;">Why I Built It</h2>
+
+      <p>
+        I wanted to create an accessible and interactive way to explore quantum
+        cryptography — not just as abstract theory, but as a system you can experiment with.
+        This project blends quantum information, simulation engineering, and AI-driven
+        analysis into a single cohesive application.
+      </p>
+
+    </div>
+
+    <!-- Action Links -->
+    <div class="project-actions">
+
+      <a href="https://github.com/SenuriR/AI-Hacker-Detection-QKD-BB84"
+         target="_blank"
+         class="project-button secondary">
+         GitHub Repository →
+      </a>
+
+      <a href="https://www.youtube.com/watch?v=KKnS1r2pOA4" target="_blank" class="project-button secondary">
+        Demo →
+      </a>
+
+    </div>
+
+    <!-- Back -->
+    <div class="back-link">
+      <a href="my_work.html">← Back to Work</a>
+    </div>
+
+  </section>
+
+</body>
+</html>

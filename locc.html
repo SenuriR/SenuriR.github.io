@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LOCC Protocol Visualizer | Senuri Rupasinghe</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css" />
+  <link rel="icon" type="image/x-icon" href="images/coca-leaves.png">
+</head>
+
+<body>
+
+  <!-- Navigation -->
+  <nav>
+    <div class="logo">
+      <a href="index.html" style="text-decoration:none; color:inherit;">SR</a>
+    </div>
+    <div class="nav-items">
+      <a href="about.html">About</a>
+      <a href="my_work.html">Work</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="container">
+      <h1>LOCC Protocol Visualizer</h1>
+      <p class="tagline">
+        A GUI and animation system for constructing LOCC protocols and visualizing entanglement evolution.
+      </p>
+    </div>
+  </section>
+
+  <!-- Main Content -->
+  <section class="project-content">
+    <div class="container">
+
+      <!-- UI Screenshot -->
+      <img src="images/locc_ui.png"
+           alt="LOCC Application Interface"
+           class="project-image">
+
+      <div class="project-description">
+
+        <h2>Overview</h2>
+        <p>
+          This project is an interactive desktop tool for building and analyzing
+          <strong>Local Operations and Classical Communication (LOCC)</strong> protocols.
+          It allows users to specify multi-party quantum states, define local operations,
+          and track how entanglement evolves under measurement and classical communication.
+        </p>
+
+        <h2 style="margin-top:60px;">Architecture</h2>
+        <p>
+          The application was structured using an <strong>MVC (Model–View–Controller)</strong>
+          architecture to separate quantum state modeling, GUI interaction, and visualization logic.
+          The controller layer coordinates user inputs, quantum state updates, and rendering.
+        </p>
+
+        <p>
+          The GUI was implemented using PyQt, while the quantum modeling layer integrates
+          numerical state manipulation and entanglement calculations.
+        </p>
+
+        <h2 style="margin-top:60px;">Visualization with Manim</h2>
+        <p>
+          A dedicated animation pipeline was built using Manim to visualize state evolution,
+          protocol steps, and entanglement measures. This allows abstract LOCC operations
+          to be translated into interpretable graphical outputs.
+        </p>
+
+      </div>
+
+      <!-- Manim Graph Image -->
+      <img src="images/locc_graph.png"
+           alt="LOCC Entanglement Graph Visualization"
+           class="project-image"
+           style="margin-top:50px;">
+
+      <div class="project-description">
+
+        <h2 style="margin-top:60px;">Engineering Takeaways</h2>
+        <p>
+          This project required integrating quantum information theory with
+          GUI design and animation tooling. It strengthened my understanding of
+          entanglement structure, state evolution under local operations,
+          and the importance of clean software architecture for scientific tools.
+        </p>
+
+        <p>
+          Environment management was also a key part of development,
+          including resolving Python–Manim compatibility constraints
+          and maintaining reproducible builds for the animation pipeline.
+        </p>
+
+      </div>
+
+      <!-- Action Links -->
+      <div class="project-actions">
+
+        <a href="https://github.com/yashsharma25/LOCC"
+           target="_blank"
+           rel="noopener noreferrer"
+           class="project-button secondary">
+          GitHub Repository →
+        </a>
+
+      </div>
+
+      <!-- Back -->
+      <div class="back-link">
+        <a href="my_work.html">← Back to Work</a>
+      </div>
+
+    </div>
+  </section>
+
+</body>
+</html>

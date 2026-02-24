@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Quantum Transport Simulation | Senuri Rupasinghe</title>
+
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles/style.css" />
+  <link rel="icon" type="image/x-icon" href="images/coca-leaves.png">
+</head>
+
+<body>
+
+  <nav>
+    <div class="logo">
+      <a href="index.html" style="text-decoration:none; color:inherit;">SR</a>
+    </div>
+    <div class="nav-items">
+      <a href="about.html">About</a>
+      <a href="my_work.html">Work</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
+
+  <!-- HERO -->
+  <section class="hero section">
+    <div class="container" style="max-width: 900px;">
+      <h1>Quantum Transport Simulation Tool</h1>
+      <p class="tagline">
+        Modeling conductance in tight-binding systems under disorder and magnetic fields.
+      </p>
+    </div>
+  </section>
+
+  <!-- MAIN CONTENT -->
+  <section class="project-content section">
+
+    <img src="images/q_transport_ui.png"
+         alt="Quantum Transport Wavefunction Plot"
+         class="project-image">
+
+    <div class="project-description">
+      <h2>Overview</h2>
+
+      <p>
+        This project implements a computational framework for simulating electronic transport
+        in lattice-based quantum systems using the tight-binding formalism.
+        The primary objective was to model conductance behavior under varying degrees of disorder
+        and external magnetic fields, and to visualize emergent transport phenomena.
+      </p>
+
+      <p>
+        The system numerically constructs the tight-binding Hamiltonian for finite lattices,
+        incorporates on-site disorder potentials, and evaluates conductance using
+        the Landauer transport formalism. By sweeping energy values and disorder strengths,
+        the simulation reveals signatures of localization and transport suppression.
+      </p>
+
+      <p>
+        The tool was designed not just as a numerical solver, but as a structured research
+        environment — allowing controlled parameter exploration, reproducible experiments,
+        and visual interpretation of quantum transport behavior.
+      </p>
+
+      <h2 style="margin-top:60px;">Physical Model</h2>
+
+      <p>
+        The Hamiltonian is constructed in the tight-binding approximation,
+        with nearest-neighbor hopping and tunable on-site disorder.
+        Magnetic field effects are incorporated via Peierls phase factors
+        modifying the hopping amplitudes.
+      </p>
+
+      <p>
+        Conductance is computed using the Landauer formula,
+        relating transmission probability to electronic conductance.
+        Disorder-induced scattering and localization effects emerge naturally
+        through random potential distributions.
+      </p>
+
+      <h2 style="margin-top:60px;">Technical Architecture</h2>
+
+      <p>
+        The simulation pipeline is implemented in Python using NumPy for matrix construction
+        and linear algebra operations. Energy sweeps and disorder realizations are automated
+        for systematic analysis.
+      </p>
+
+      <p>
+        Visualization components use Matplotlib to generate conductance-versus-energy plots,
+        enabling qualitative comparison between clean and disordered systems.
+      </p>
+
+      <p>
+        Beyond the physics engine, this project required full-stack engineering and deployment.
+        I designed and configured the backend infrastructure, provisioned and deployed the
+        application on an AWS EC2 instance, and set up an Nginx server for production routing.
+        This process involved environment management, server configuration, and ensuring
+        reliable remote execution of simulation workloads.
+      </p>
+
+      <p>
+        The system is modular and deployable, allowing extensions such as multi-band models,
+        alternative lattice geometries, and scalable parameter sweeps — bridging
+        scientific modeling with production-grade engineering practices.
+      </p>
+
+      <h2 style="margin-top:60px;">Key Outcomes</h2>
+
+      <p>
+        • Demonstrated conductance suppression under increasing disorder (Anderson localization trends).<br>
+        • Visualized transport plateaus under magnetic flux conditions.<br>
+        • Built a reusable computational structure for future quantum transport studies.
+      </p>
+    </div>
+
+    <div class="project-actions">
+      <a href="http://silalabs.io/qtransport/" target="_blank" class="project-button">
+        Live Simulation →
+      </a>
+      <a href="pdfs/A_Python_Based_Simulation_Framework_for_Visualizing_Nanoscale_Quantum_Transport.pdf" target="_blank" class="project-button secondary">
+        Technical Paper →
+      </a>
+      <a href="https://github.com/sila-labs/Quantum-Transport-Simulations" target="_blank" class="project-button secondary">
+        GitHub Repository →
+      </a>
+    </div>
+
+    <div class="back-link">
+      <a href="my_work.html">← Back to Work</a>
+    </div>
+
+  </section>
+
+</body>
+</html>
