@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>NV Center Research | Senuri Rupasinghe</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles/style.css" />
+    <link rel="icon" type="image/x-icon" href="images/coca-leaves.png">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav>
+        <div class="logo">
+            <a href="index.html" style="text-decoration:none; color:inherit;">SR</a>
+        </div>
+        <div class="nav-items">
+            <a href="about.html">About</a>
+            <a href="my_work.html">Work</a>
+            <a href="contact.html">Contact</a>
+        </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero">
+        <div class="container">
+            <h1>Perturbation Theory Visualizer</h1>
+            <p class="tagline">
+                Interactive exploration of quantum perturbation theory using the anharmonic oscillator.
+            </p>
+        </div>
+    </section>
+
+    <img src="images/PT_Visualizer.png" alt="PT Application Interface" class="project-image">
+
+    <!-- Main Content -->
+    <section class="project-content">
+        <div class="container">
+
+            <div class="project-description">
+
+                <h2>Overview</h2>
+                <p>
+                    I am currently taking Quantum Mechanics II, and we are learning about
+                    perturbation theory.
+                    I wanted to create a visualizer to help me understand the concepts better.
+                    I realized that creating an application that was centered on the idea that lambda is a tunable
+                    parameter
+                    would be a great way to explore the concepts.
+                </p>
+
+                <h2 style="margin-top:60px;">Why lambda</h2>
+                <p>
+                    The idea about perturbation theory is that you have this nice Hamiltonian that you know how to solve
+                    exactly, but it's not the Hamiltonian you're interested in.
+                    <br><br>The Hamiltonian you're interested in is
+                    this simple Hamiltonian PLUS a perturbation term that you can't solve exactly. So you try to solve
+                    it by adding a small
+                    parameter lambda to this perturbation term.
+                </p>
+                <p>
+                    We can then expand the hamiltonian in terms of lambda and solve for the wavefunctions and energies
+                    order by order.<br>
+                </p>
+
+                <h2 style="margin-top:60px;">What I’m Learning</h2>
+                <p> Quantum mechanics can be very abstact, but tools like this that allow you to interact with the
+                    parameters and concepts at play help you understand it better.</p>
+            </div>
+
+            <!-- Actions -->
+            <div class="project-actions">
+                <a href="/perturbation-app/" target="_blank" class="project-button">Web App</a>
+            </div>
+
+            <!-- Back -->
+            <div class="back-link">
+                <a href="my_work.html">← Back to Work</a>
+            </div>
+            <br>
+
+        </div>
+    </section>
+
+</body>
+
+</html>

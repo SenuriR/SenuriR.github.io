@@ -13,277 +13,307 @@
 
 <body>
 
-<nav>
-  <div class="logo">
-    <a href="index.html" style="text-decoration:none; color:inherit;">SR</a>
-  </div>
-  <div class="nav-items">
-    <a href="about.html">About</a>
-    <a href="my_work.html">Work</a>
-    <a href="contact.html">Contact</a>
-  </div>
-</nav>
-
-<!-- HERO -->
-<section class="hero">
-  <div class="container">
-    <div class="narrow">
-      <h1>Selected Work</h1>
-      <p class="tagline">
-        Research systems, engineering tools, and scientific writing.
-      </p>
+  <nav>
+    <div class="logo">
+      <a href="index.html" style="text-decoration:none; color:inherit;">SR</a>
     </div>
-  </div>
-</section>
+    <div class="nav-items">
+      <a href="about.html">About</a>
+      <a href="my_work.html">Work</a>
+      <a href="contact.html">Contact</a>
+    </div>
+  </nav>
 
-<!-- FILTER TABS -->
-<section>
-  <div class="container">
-    <div class="narrow">
-      <div class="filter-tabs">
-        <button class="tab-button active" data-filter="all">All</button>
-        <button class="tab-button" data-filter="quantum-systems">Quantum Systems</button>
-        <button class="tab-button" data-filter="scientific-software">Scientific Software</button>
-        <button class="tab-button" data-filter="writing">Writing</button>
+  <!-- HERO -->
+  <section class="hero">
+    <div class="container">
+      <div class="narrow">
+        <h1>Selected Work</h1>
+        <p class="tagline">
+          Research systems, engineering tools, and scientific writing.
+        </p>
       </div>
     </div>
-  </div>
-</section>
+  </section>
 
-<!-- PROJECT GRID -->
-<section class="work-section">
-  <div class="container">
-    <div class="card-grid">
-
-       <div class="card filter-item quantum-systems">
-        <img src="images/lab_banner.png" class="card-image">
-        <h3>Pasupathy Research Group | <br> Condensed Matter Physics</h3>
-        <p>Hands-on experimental work with NV-center quantum sensing.</p>
-        
-        <div class="card-links">
-          <a href="nv_center.html" class="project-link">View Project →</a>
-          </a>
+  <!-- FILTER TABS -->
+  <section>
+    <div class="container">
+      <div class="narrow">
+        <div class="filter-tabs">
+          <button class="tab-button active" data-filter="all">All</button>
+          <button class="tab-button" data-filter="quantum-systems">Quantum Systems</button>
+          <button class="tab-button" data-filter="scientific-software">Scientific Software</button>
+          <button class="tab-button" data-filter="writing">Writing</button>
         </div>
       </div>
-
-      <div class="card filter-item quantum-systems">
-        <img src="images/graph_qtransport.png" class="card-image">
-        <h3>Quantum Transport Simulation Tool</h3>
-        <p>Modeling conductance in tight-binding systems under disorder and magnetic fields.</p>
-        
-        <div class="card-links">
-          <a href="quantum-transport.html" class="project-link">View Project →</a>
-          <a href="https://github.com/sila-labs/Quantum-Transport-Simulations" class="github-icon" aria-label="GitHub">
-            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
-              <path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385
-              .6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04
-              -3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756
-              -1.089-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236
-              1.07 1.835 2.807 1.304 3.492.997.108-.776.418-1.305.762-1.605
-              -2.665-.3-5.467-1.332-5.467-5.93 0-1.31.468-2.38 1.235-3.22
-              -.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23
-              .957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404
-              2.29-1.552 3.296-1.23 3.296-1.23 .653 1.653.242 2.874.118 3.176
-              .77.84 1.233 1.91 1.233 3.22 0 4.61-2.807 5.625-5.479 5.92
-              .43.372.823 1.102.823 2.222 0 1.606-.015 2.898-.015 3.293
-              0 .322.216.694.825.576C20.565 21.795 24 17.295 24 12
-              24 5.37 18.63 0 12 0z"/>
-            </svg>
-          </a>
-        </div>
-      </div>
-
-      <div class="card filter-item quantum-systems">
-        <img src="images/locc_ui.png" class="card-image">
-        <h3>LOCC Protocol Visualizer</h3>
-        <p>A GUI and animation system for constructing LOCC protocols and visualizing entanglement evolution.</p>
-        
-        <div class="card-links">
-          <a href="locc.html" class="project-link">View Project →</a>
-          <a href="https://github.com/yashsharma25/LOCC" class="github-icon" aria-label="GitHub">
-            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
-              <path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385
-              .6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04
-              -3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756
-              -1.089-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236
-              1.07 1.835 2.807 1.304 3.492.997.108-.776.418-1.305.762-1.605
-              -2.665-.3-5.467-1.332-5.467-5.93 0-1.31.468-2.38 1.235-3.22
-              -.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23
-              .957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404
-              2.29-1.552 3.296-1.23 3.296-1.23 .653 1.653.242 2.874.118 3.176
-              .77.84 1.233 1.91 1.233 3.22 0 4.61-2.807 5.625-5.479 5.92
-              .43.372.823 1.102.823 2.222 0 1.606-.015 2.898-.015 3.293
-              0 .322.216.694.825.576C20.565 21.795 24 17.295 24 12
-              24 5.37 18.63 0 12 0z"/>
-            </svg>
-          </a>
-        </div>
-      </div>
-
-       <div class="card filter-item quantum-systems, scientific-software">
-        <img src="images/qkd_ui.png" class="card-image">
-        <h3>Quantum Key Distribution (BB84) Hacker Detection with Cerebras Qwen3 LLM:</h3>
-        <p>A playful quantum key distribution simulator with AI-assisted eavesdropper inference.</p>
-        
-        <div class="card-links">
-          <a href="qkd_cerebras.html" class="project-link">View Project →</a>
-          <a href="https://github.com/SenuriR/AI-Hacker-Detection-QKD-BB84" class="github-icon" aria-label="GitHub">
-            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
-              <path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385
-              .6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04
-              -3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756
-              -1.089-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236
-              1.07 1.835 2.807 1.304 3.492.997.108-.776.418-1.305.762-1.605
-              -2.665-.3-5.467-1.332-5.467-5.93 0-1.31.468-2.38 1.235-3.22
-              -.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23
-              .957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404
-              2.29-1.552 3.296-1.23 3.296-1.23 .653 1.653.242 2.874.118 3.176
-              .77.84 1.233 1.91 1.233 3.22 0 4.61-2.807 5.625-5.479 5.92
-              .43.372.823 1.102.823 2.222 0 1.606-.015 2.898-.015 3.293
-              0 .322.216.694.825.576C20.565 21.795 24 17.295 24 12
-              24 5.37 18.63 0 12 0z"/>
-            </svg>
-          </a>
-        </div>
-      </div>
-
-      <div class="card filter-item scientific-software">
-        <img src="images/face_detection_code.png" class="card-image">
-        <h3>Real Time Face Detection</h3>
-        <p>A beginner computer vision project exploring real-time detection and recognition pipelines.</p>
-        
-        <div class="card-links">
-          <a href="face_detection.html" class="project-link">View Project →</a>
-          <a href="https://github.com/SenuriR/Real-Time-Face-Recognition" class="github-icon" aria-label="GitHub">
-            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
-              <path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385
-              .6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04
-              -3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756
-              -1.089-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236
-              1.07 1.835 2.807 1.304 3.492.997.108-.776.418-1.305.762-1.605
-              -2.665-.3-5.467-1.332-5.467-5.93 0-1.31.468-2.38 1.235-3.22
-              -.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23
-              .957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404
-              2.29-1.552 3.296-1.23 3.296-1.23 .653 1.653.242 2.874.118 3.176
-              .77.84 1.233 1.91 1.233 3.22 0 4.61-2.807 5.625-5.479 5.92
-              .43.372.823 1.102.823 2.222 0 1.606-.015 2.898-.015 3.293
-              0 .322.216.694.825.576C20.565 21.795 24 17.295 24 12
-              24 5.37 18.63 0 12 0z"/>
-            </svg>
-          </a>
-        </div>
-      </div>
-
-      <div class="card filter-item scientific-software">
-        <img src="images/solar_system.png" class="card-image">
-        <h3>Interactive Solar System</h3>
-        <p> A browser-based 3D solar system built with Three.js.</p>
-        
-        <div class="card-links">
-          <a href="solar_system.html" class="project-link">View Project →</a>
-          <a href="https://github.com/SenuriR/Interactive-Solar-System" class="github-icon" aria-label="GitHub">
-            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
-              <path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385
-              .6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04
-              -3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756
-              -1.089-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236
-              1.07 1.835 2.807 1.304 3.492.997.108-.776.418-1.305.762-1.605
-              -2.665-.3-5.467-1.332-5.467-5.93 0-1.31.468-2.38 1.235-3.22
-              -.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23
-              .957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404
-              2.29-1.552 3.296-1.23 3.296-1.23 .653 1.653.242 2.874.118 3.176
-              .77.84 1.233 1.91 1.233 3.22 0 4.61-2.807 5.625-5.479 5.92
-              .43.372.823 1.102.823 2.222 0 1.606-.015 2.898-.015 3.293
-              0 .322.216.694.825.576C20.565 21.795 24 17.295 24 12
-              24 5.37 18.63 0 12 0z"/>
-            </svg>
-          </a>
-        </div>
-      </div>
-
-       <div class="card filter-item quantum-systems">
-        <img src="images/computing_tool_ui.png" class="card-image">
-        <h3>Quantum Information Playground</h3>
-        <p>An interactive learning and visualization tool for quantum circuits and state evolution.</p>
-        
-        <div class="card-links">
-          <a href="quantum_playground.html" class="project-link">View Project →</a>
-          <a href="https://github.com/SenuriR/Quantum-Information-Playground" class="github-icon" aria-label="GitHub">
-            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
-              <path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385
-              .6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04
-              -3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756
-              -1.089-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236
-              1.07 1.835 2.807 1.304 3.492.997.108-.776.418-1.305.762-1.605
-              -2.665-.3-5.467-1.332-5.467-5.93 0-1.31.468-2.38 1.235-3.22
-              -.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23
-              .957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404
-              2.29-1.552 3.296-1.23 3.296-1.23 .653 1.653.242 2.874.118 3.176
-              .77.84 1.233 1.91 1.233 3.22 0 4.61-2.807 5.625-5.479 5.92
-              .43.372.823 1.102.823 2.222 0 1.606-.015 2.898-.015 3.293
-              0 .322.216.694.825.576C20.565 21.795 24 17.295 24 12
-              24 5.37 18.63 0 12 0z"/>
-            </svg>
-          </a>
-        </div>
-      </div>
-
-      <div class="card filter-item scientific-software">
-        <img src="images/palposter.png" class="card-image">
-        <h3>PAL Project | Rutgers University</h3>
-        <p>A production-grade academic automation system with measurable impact.</p>
-        
-        <div class="card-links">
-          <a href="pal.html" class="project-link">View Project →</a>
-          </a>
-        </div>
-      </div>
-
-      <div class="card filter-item writing">
-        <img src="images/paper_ss.png" class="card-image">
-        <h3>Quantum Transport Simulation Tool Technical Paper</h3>
-        <p>Paper concerning the technical details of my quantum transport simulation tool.</p>
-        <p class="tech-stack">Research Writing · Quantum Systems</p>
-        <div class="card-links">
-          <a href="pdfs/A_Python_Based_Simulation_Framework_for_Visualizing_Nanoscale_Quantum_Transport.pdf" class="project-link">View Paper →</a>
-        </div>
-      </div>
-
-      <div class="card filter-item writing">
-        <img src="images/ai_paper_ss.png" class="card-image">
-        <h3>AI & Deepfakes – Seminar Paper</h3>
-        <p>Ethical and technical analysis of synthetic media systems.</p>
-        <p class="tech-stack">Research Writing · Ethics · AI Systems</p>
-        <div class="card-links">
-          <a href="pdfs/seminar_paper.pdf" class="project-link">View Paper →</a>
-        </div>
-      </div>
-
     </div>
-  </div>
-</section>
+  </section>
 
-<script>
-  const buttons = document.querySelectorAll(".tab-button");
-  const items = document.querySelectorAll(".filter-item");
+  <!-- PROJECT GRID -->
+  <section class="work-section">
+    <div class="container">
+      <div class="card-grid">
 
-  buttons.forEach(button => {
-    button.addEventListener("click", () => {
-      document.querySelector(".tab-button.active").classList.remove("active");
-      button.classList.add("active");
+        <div class="card filter-item quantum-systems">
+          <img src="images/lab_banner.png" class="card-image">
+          <h3>Pasupathy Research Group | <br> Condensed Matter Physics</h3>
+          <p>Hands-on experimental work with NV-center quantum sensing.</p>
 
-      const filter = button.getAttribute("data-filter");
+          <div class="card-links">
+            <a href="nv_center.html" class="project-link">View Project →</a>
+            </a>
+          </div>
+        </div>
 
-      items.forEach(item => {
-        if (filter === "all" || item.classList.contains(filter)) {
-          item.classList.remove("hidden");
-        } else {
-          item.classList.add("hidden");
-        }
+        <div class="card filter-item quantum-systems">
+          <img src="images/PT_Visualizer.png" class="card-image">
+          <h3>Perturbation Theory Visualizer</h3>
+          <p>Interactive exploration of quantum perturbation theory using the anharmonic oscillator.</p>
+
+          <div class="card-links">
+            <a href="perturbation.html" class="project-link">View Project →</a>
+            <a href="https://github.com/SenuriR/Perturbation-Theory-Visualizer" class="github-icon" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                <path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385
+              .6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04
+              -3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756
+              -1.089-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236
+              1.07 1.835 2.807 1.304 3.492.997.108-.776.418-1.305.762-1.605
+              -2.665-.3-5.467-1.332-5.467-5.93 0-1.31.468-2.38 1.235-3.22
+              -.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23
+              .957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404
+              2.29-1.552 3.296-1.23 3.296-1.23 .653 1.653.242 2.874.118 3.176
+              .77.84 1.233 1.91 1.233 3.22 0 4.61-2.807 5.625-5.479 5.92
+              .43.372.823 1.102.823 2.222 0 1.606-.015 2.898-.015 3.293
+              0 .322.216.694.825.576C20.565 21.795 24 17.295 24 12
+              24 5.37 18.63 0 12 0z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="card filter-item quantum-systems">
+          <img src="images/graph_qtransport.png" class="card-image">
+          <h3>Quantum Transport Simulation Tool</h3>
+          <p>Modeling conductance in tight-binding systems under disorder and magnetic fields.</p>
+
+          <div class="card-links">
+            <a href="quantum-transport.html" class="project-link">View Project →</a>
+            <a href="https://github.com/sila-labs/Quantum-Transport-Simulations" class="github-icon"
+              aria-label="GitHub">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                <path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385
+              .6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04
+              -3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756
+              -1.089-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236
+              1.07 1.835 2.807 1.304 3.492.997.108-.776.418-1.305.762-1.605
+              -2.665-.3-5.467-1.332-5.467-5.93 0-1.31.468-2.38 1.235-3.22
+              -.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23
+              .957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404
+              2.29-1.552 3.296-1.23 3.296-1.23 .653 1.653.242 2.874.118 3.176
+              .77.84 1.233 1.91 1.233 3.22 0 4.61-2.807 5.625-5.479 5.92
+              .43.372.823 1.102.823 2.222 0 1.606-.015 2.898-.015 3.293
+              0 .322.216.694.825.576C20.565 21.795 24 17.295 24 12
+              24 5.37 18.63 0 12 0z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="card filter-item quantum-systems">
+          <img src="images/locc_ui.png" class="card-image">
+          <h3>LOCC Protocol Visualizer</h3>
+          <p>A GUI and animation system for constructing LOCC protocols and visualizing entanglement evolution.</p>
+
+          <div class="card-links">
+            <a href="locc.html" class="project-link">View Project →</a>
+            <a href="https://github.com/yashsharma25/LOCC" class="github-icon" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                <path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385
+              .6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04
+              -3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756
+              -1.089-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236
+              1.07 1.835 2.807 1.304 3.492.997.108-.776.418-1.305.762-1.605
+              -2.665-.3-5.467-1.332-5.467-5.93 0-1.31.468-2.38 1.235-3.22
+              -.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23
+              .957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404
+              2.29-1.552 3.296-1.23 3.296-1.23 .653 1.653.242 2.874.118 3.176
+              .77.84 1.233 1.91 1.233 3.22 0 4.61-2.807 5.625-5.479 5.92
+              .43.372.823 1.102.823 2.222 0 1.606-.015 2.898-.015 3.293
+              0 .322.216.694.825.576C20.565 21.795 24 17.295 24 12
+              24 5.37 18.63 0 12 0z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="card filter-item quantum-systems, scientific-software">
+          <img src="images/qkd_ui.png" class="card-image">
+          <h3>Quantum Key Distribution (BB84) Hacker Detection with Cerebras Qwen3 LLM:</h3>
+          <p>A playful quantum key distribution simulator with AI-assisted eavesdropper inference.</p>
+
+          <div class="card-links">
+            <a href="qkd_cerebras.html" class="project-link">View Project →</a>
+            <a href="https://github.com/SenuriR/AI-Hacker-Detection-QKD-BB84" class="github-icon" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                <path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385
+              .6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04
+              -3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756
+              -1.089-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236
+              1.07 1.835 2.807 1.304 3.492.997.108-.776.418-1.305.762-1.605
+              -2.665-.3-5.467-1.332-5.467-5.93 0-1.31.468-2.38 1.235-3.22
+              -.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23
+              .957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404
+              2.29-1.552 3.296-1.23 3.296-1.23 .653 1.653.242 2.874.118 3.176
+              .77.84 1.233 1.91 1.233 3.22 0 4.61-2.807 5.625-5.479 5.92
+              .43.372.823 1.102.823 2.222 0 1.606-.015 2.898-.015 3.293
+              0 .322.216.694.825.576C20.565 21.795 24 17.295 24 12
+              24 5.37 18.63 0 12 0z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="card filter-item scientific-software">
+          <img src="images/face_detection_code.png" class="card-image">
+          <h3>Real Time Face Detection</h3>
+          <p>A beginner computer vision project exploring real-time detection and recognition pipelines.</p>
+
+          <div class="card-links">
+            <a href="face_detection.html" class="project-link">View Project →</a>
+            <a href="https://github.com/SenuriR/Real-Time-Face-Recognition" class="github-icon" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                <path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385
+              .6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04
+              -3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756
+              -1.089-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236
+              1.07 1.835 2.807 1.304 3.492.997.108-.776.418-1.305.762-1.605
+              -2.665-.3-5.467-1.332-5.467-5.93 0-1.31.468-2.38 1.235-3.22
+              -.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23
+              .957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404
+              2.29-1.552 3.296-1.23 3.296-1.23 .653 1.653.242 2.874.118 3.176
+              .77.84 1.233 1.91 1.233 3.22 0 4.61-2.807 5.625-5.479 5.92
+              .43.372.823 1.102.823 2.222 0 1.606-.015 2.898-.015 3.293
+              0 .322.216.694.825.576C20.565 21.795 24 17.295 24 12
+              24 5.37 18.63 0 12 0z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="card filter-item scientific-software">
+          <img src="images/solar_system.png" class="card-image">
+          <h3>Interactive Solar System</h3>
+          <p> A browser-based 3D solar system built with Three.js.</p>
+
+          <div class="card-links">
+            <a href="solar_system.html" class="project-link">View Project →</a>
+            <a href="https://github.com/SenuriR/Interactive-Solar-System" class="github-icon" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                <path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385
+              .6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04
+              -3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756
+              -1.089-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236
+              1.07 1.835 2.807 1.304 3.492.997.108-.776.418-1.305.762-1.605
+              -2.665-.3-5.467-1.332-5.467-5.93 0-1.31.468-2.38 1.235-3.22
+              -.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23
+              .957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404
+              2.29-1.552 3.296-1.23 3.296-1.23 .653 1.653.242 2.874.118 3.176
+              .77.84 1.233 1.91 1.233 3.22 0 4.61-2.807 5.625-5.479 5.92
+              .43.372.823 1.102.823 2.222 0 1.606-.015 2.898-.015 3.293
+              0 .322.216.694.825.576C20.565 21.795 24 17.295 24 12
+              24 5.37 18.63 0 12 0z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="card filter-item quantum-systems">
+          <img src="images/computing_tool_ui.png" class="card-image">
+          <h3>Quantum Information Playground</h3>
+          <p>An interactive learning and visualization tool for quantum circuits and state evolution.</p>
+
+          <div class="card-links">
+            <a href="quantum_playground.html" class="project-link">View Project →</a>
+            <a href="https://github.com/SenuriR/Quantum-Information-Playground" class="github-icon" aria-label="GitHub">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                <path d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385
+              .6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04
+              -3.338.724-4.042-1.61-4.042-1.61-.546-1.387-1.333-1.756-1.333-1.756
+              -1.089-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236
+              1.07 1.835 2.807 1.304 3.492.997.108-.776.418-1.305.762-1.605
+              -2.665-.3-5.467-1.332-5.467-5.93 0-1.31.468-2.38 1.235-3.22
+              -.124-.303-.535-1.524.117-3.176 0 0 1.008-.322 3.301 1.23
+              .957-.266 1.983-.399 3.003-.404 1.02.005 2.047.138 3.006.404
+              2.29-1.552 3.296-1.23 3.296-1.23 .653 1.653.242 2.874.118 3.176
+              .77.84 1.233 1.91 1.233 3.22 0 4.61-2.807 5.625-5.479 5.92
+              .43.372.823 1.102.823 2.222 0 1.606-.015 2.898-.015 3.293
+              0 .322.216.694.825.576C20.565 21.795 24 17.295 24 12
+              24 5.37 18.63 0 12 0z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+
+        <div class="card filter-item scientific-software">
+          <img src="images/palposter.png" class="card-image">
+          <h3>PAL Project | Rutgers University</h3>
+          <p>A production-grade academic automation system with measurable impact.</p>
+
+          <div class="card-links">
+            <a href="pal.html" class="project-link">View Project →</a>
+            </a>
+          </div>
+        </div>
+
+        <div class="card filter-item writing">
+          <img src="images/paper_ss.png" class="card-image">
+          <h3>Quantum Transport Simulation Tool Technical Paper</h3>
+          <p>Paper concerning the technical details of my quantum transport simulation tool.</p>
+          <p class="tech-stack">Research Writing · Quantum Systems</p>
+          <div class="card-links">
+            <a href="pdfs/A_Python_Based_Simulation_Framework_for_Visualizing_Nanoscale_Quantum_Transport.pdf"
+              class="project-link">View Paper →</a>
+          </div>
+        </div>
+
+        <div class="card filter-item writing">
+          <img src="images/ai_paper_ss.png" class="card-image">
+          <h3>AI & Deepfakes – Seminar Paper</h3>
+          <p>Ethical and technical analysis of synthetic media systems.</p>
+          <p class="tech-stack">Research Writing · Ethics · AI Systems</p>
+          <div class="card-links">
+            <a href="pdfs/seminar_paper.pdf" class="project-link">View Paper →</a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <script>
+    const buttons = document.querySelectorAll(".tab-button");
+    const items = document.querySelectorAll(".filter-item");
+
+    buttons.forEach(button => {
+      button.addEventListener("click", () => {
+        document.querySelector(".tab-button.active").classList.remove("active");
+        button.classList.add("active");
+
+        const filter = button.getAttribute("data-filter");
+
+        items.forEach(item => {
+          if (filter === "all" || item.classList.contains(filter)) {
+            item.classList.remove("hidden");
+          } else {
+            item.classList.add("hidden");
+          }
+        });
       });
     });
-  });
-</script>
+  </script>
 
 </body>
+
 </html>
