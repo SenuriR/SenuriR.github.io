@@ -4,7 +4,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>NV Center Research | Senuri Rupasinghe</title>
+    <title>Perturbation Theory Visualizer | Senuri Rupasinghe</title>
 
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles/style.css" />
@@ -35,7 +35,11 @@
         </div>
     </section>
 
-    <img src="images/PT_Visualizer.png" alt="PT Application Interface" class="project-image">
+    <img 
+        src="images/PT_Visualizer.png" 
+        alt="Perturbation Theory Visualizer Interface"
+        style="display:block; margin:40px auto; width:60%; max-width:900px;"
+    >
 
     <!-- Main Content -->
     <section class="project-content">
@@ -44,32 +48,73 @@
             <div class="project-description">
 
                 <h2>Overview</h2>
+
                 <p>
-                    I am currently taking Quantum Mechanics II, and we are learning about
-                    perturbation theory.
-                    I wanted to create a visualizer to help me understand the concepts better.
-                    I realized that creating an application that was centered on the idea that lambda is a tunable
-                    parameter
-                    would be a great way to explore the concepts.
+                    I am currently taking Quantum Mechanics II, where we are studying perturbation theory.
+                    To deepen my understanding of the material, I built an interactive visualization tool
+                    that explores how perturbations affect quantum energy levels.
                 </p>
 
-                <h2 style="margin-top:60px;">Why lambda</h2>
                 <p>
-                    The idea about perturbation theory is that you have this nice Hamiltonian that you know how to solve
-                    exactly, but it's not the Hamiltonian you're interested in.
-                    <br><br>The Hamiltonian you're interested in is
-                    this simple Hamiltonian PLUS a perturbation term that you can't solve exactly. So you try to solve
-                    it by adding a small
-                    parameter lambda to this perturbation term.
+                    The application models the <strong>anharmonic oscillator</strong>, where the Hamiltonian is written as
                 </p>
+
+                <p style="margin-top:10px;">
+                    H(λ) = H₀ + λx⁴
+                </p>
+
                 <p>
-                    We can then expand the hamiltonian in terms of lambda and solve for the wavefunctions and energies
-                    order by order.<br>
+                    Here, the parameter λ controls the strength of the perturbation. By adjusting λ,
+                    users can explore how the energy spectrum evolves from the solvable harmonic oscillator
+                    to the perturbed system.
+                </p>
+
+                <p>
+                    Under the hood, the app constructs the Hamiltonian in the harmonic oscillator basis
+                    using ladder operators and numerically diagonalizes the matrix to compute the exact
+                    energy eigenvalues. These results are displayed alongside the
+                    <strong>first-order perturbation theory prediction</strong>, allowing users to directly
+                    compare the approximation with the exact numerical solution.
+                </p>
+
+                <h2 style="margin-top:60px;">Why λ</h2>
+
+                <p>
+                    In perturbation theory, we begin with a Hamiltonian that can be solved exactly and then
+                    introduce an additional term that represents a small physical correction. Because the
+                    full Hamiltonian cannot usually be solved analytically, we introduce a parameter λ to
+                    control the strength of this perturbation.
+                </p>
+
+                <p>
+                    The energy of the system can then be expanded as a power series in λ:
+                </p>
+
+                <p style="margin-top:10px;">
+                    Eₙ(λ) = Eₙ⁽⁰⁾ + λEₙ⁽¹⁾ + λ²Eₙ⁽²⁾ + ...
+                </p>
+
+                <p>
+                    This allows us to approximate the system order by order. In this visualization,
+                    λ is treated as a continuous parameter so users can see how the exact energy spectrum
+                    evolves as the perturbation becomes stronger. The visualization also highlights where
+                    first-order perturbation theory begins to deviate from the exact solution.
                 </p>
 
                 <h2 style="margin-top:60px;">What I’m Learning</h2>
-                <p> Quantum mechanics can be very abstact, but tools like this that allow you to interact with the
-                    parameters and concepts at play help you understand it better.</p>
+
+                <p>
+                    Quantum mechanics can be highly abstract, but interactive tools make the underlying
+                    ideas much easier to understand. Building this visualization helped me better connect
+                    the formal perturbative expansion with the actual spectrum of a quantum system.
+                </p>
+
+                <p>
+                    It also reinforced how numerical methods can be used to explore quantum problems that
+                    do not admit simple closed-form solutions, providing a bridge between theoretical
+                    derivations and computational experimentation.
+                </p>
+
             </div>
 
             <!-- Actions -->
@@ -81,6 +126,7 @@
             <div class="back-link">
                 <a href="my_work.html">← Back to Work</a>
             </div>
+
             <br>
 
         </div>
